@@ -59,3 +59,7 @@ Falha na criação: POST /users sem email → 400 Bad Request
 Listagem geral: GET /users → 200 OK
 
 Falha na busca: GET /users/999 → 404 Not Found
+
+Esther Costa da Silva 
+Universidade Cruzeiro do sul 
+Ciência da computação
