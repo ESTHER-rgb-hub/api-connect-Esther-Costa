@@ -60,6 +60,6 @@ Listagem geral: GET /users → 200 OK
 
 Falha na busca: GET /users/999 → 404 Not Found
 
-Esther Costa da Silva 
-Universidade Cruzeiro do sul 
-Ciência da computação
+### Esther Costa da Silva 
+### Universidade Cruzeiro do sul 
+### Ciência da computação 
