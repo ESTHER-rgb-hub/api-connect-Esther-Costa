@@ -46,15 +46,22 @@ http://127.0.0.1:5000/
 ## 📌 Endpoints da API
 Método	Rota	Descrição	Exemplo de corpo JSON
 GET	/users	Lista todos os usuários	—
+
 POST	/users	Cria novo usuário	{ "name": "Ana", "email": "ana@email.com" }
+
 GET	/users/<id>	Busca usuário por ID	—
+
 PUT	/users/<id>	Atualiza usuário existente	{ "name": "Novo Nome" }
+
 DELETE	/users/<id>	Remove usuário	—
 
 ## ✅ Exemplos de testes
 Criação com sucesso: POST /users com nome e email → 201 Created
+
 Falha na criação: POST /users sem email → 400 Bad Request
+
 Listagem geral: GET /users → 200 OK
+
 Falha na busca: GET /users/999 → 404 Not Found
 
 ### Esther Costa da Silva 
